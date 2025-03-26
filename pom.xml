@@ -77,4 +77,11 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://52.66.44.57:8081/repository/freestyle_jenkins/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
